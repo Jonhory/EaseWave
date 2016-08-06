@@ -50,7 +50,7 @@
         float a = 3 / rect.size.width * M_PI ;
         float b = 2 * _b / rect.size.width * M_PI;
         float c = (1 - self.present) * rect.size.height ;
-        y=  A * sin(a * x +  b) + c;
+        y =  A * sin(a * x +  b) + c;
         CGPathAddLineToPoint(path, nil, x, y);
     }
     
@@ -80,7 +80,7 @@
         float a = 3 / rect.size.width * M_PI ;
         float b = (_b / rect.size.width + 1 )* M_PI;
         float c = (1 - self.present) * rect.size.height ;
-        y1=  A * sin(a * x +  b) + c;
+        y1 =  A * sin(a * x +  b) + c;
         CGPathAddLineToPoint(path1, nil, x, y1);
     }
     
@@ -98,7 +98,7 @@
     //启动定时器
     [self createTimer];
     //修改波浪的幅度 0.3可以尝试修改
-    _A = self.frame.size.height * present / 100 * 0.3;
+    _A = self.frame.size.height * _present * 0.3;
 }
 
 - (void)createTimer{

@@ -22,7 +22,7 @@
 @implementation ViewController
 
 #define SCREEN [UIScreen mainScreen].bounds.size
-static CGFloat const WAVEHEIGHT = 50.0;//波浪视图高度
+static CGFloat const WAVEHEIGHT    = 50.0;//波浪视图高度
 static CGFloat const MAXWAVEHEIGHT = WAVEHEIGHT + 10;//这个数字是设置波浪在scrollView偏移时保持的波峰的最大值的一个系数
 
 - (void)viewDidLoad {
