@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8952A1D31D557A26005B3B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952A1D21D557A26005B3B17 /* main.m */; };
+		8952A1D61D557A26005B3B17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952A1D51D557A26005B3B17 /* AppDelegate.m */; };
+		8952A1D91D557A26005B3B17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952A1D81D557A26005B3B17 /* ViewController.m */; };
+		8952A1DC1D557A26005B3B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8952A1DA1D557A26005B3B17 /* Main.storyboard */; };
+		8952A1DE1D557A26005B3B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8952A1DD1D557A26005B3B17 /* Assets.xcassets */; };
+		8952A1E11D557A26005B3B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8952A1DF1D557A26005B3B17 /* LaunchScreen.storyboard */; };
+		8952A1EA1D557A66005B3B17 /* EaseWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952A1E91D557A66005B3B17 /* EaseWaveView.m */; };
+		89AA9DE71D558F83000DE0F8 /* NextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9DE61D558F83000DE0F8 /* NextVC.m */; };
+		89AA9DE91D559518000DE0F8 /* waveGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89AA9DE81D559518000DE0F8 /* waveGif.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8952A1CE1D557A26005B3B17 /* EaseWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8952A1D21D557A26005B3B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8952A1D41D557A26005B3B17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8952A1D51D557A26005B3B17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8952A1D71D557A26005B3B17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8952A1D81D557A26005B3B17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8952A1DB1D557A26005B3B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8952A1DD1D557A26005B3B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8952A1E01D557A26005B3B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8952A1E21D557A26005B3B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8952A1E81D557A66005B3B17 /* EaseWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseWaveView.h; sourceTree = "<group>"; };
+		8952A1E91D557A66005B3B17 /* EaseWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseWaveView.m; sourceTree = "<group>"; };
+		89AA9DE51D558F83000DE0F8 /* NextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextVC.h; sourceTree = "<group>"; };
+		89AA9DE61D558F83000DE0F8 /* NextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextVC.m; sourceTree = "<group>"; };
+		89AA9DE81D559518000DE0F8 /* waveGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = waveGif.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8952A1CB1D557A26005B3B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8952A1C51D557A26005B3B17 = {
+			isa = PBXGroup;
+			children = (
+				89AA9DE81D559518000DE0F8 /* waveGif.gif */,
+				8952A1E81D557A66005B3B17 /* EaseWaveView.h */,
+				8952A1E91D557A66005B3B17 /* EaseWaveView.m */,
+				8952A1D01D557A26005B3B17 /* EaseWave */,
+				8952A1CF1D557A26005B3B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8952A1CF1D557A26005B3B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8952A1CE1D557A26005B3B17 /* EaseWave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8952A1D01D557A26005B3B17 /* EaseWave */ = {
+			isa = PBXGroup;
+			children = (
+				8952A1D41D557A26005B3B17 /* AppDelegate.h */,
+				8952A1D51D557A26005B3B17 /* AppDelegate.m */,
+				8952A1D71D557A26005B3B17 /* ViewController.h */,
+				8952A1D81D557A26005B3B17 /* ViewController.m */,
+				89AA9DE51D558F83000DE0F8 /* NextVC.h */,
+				89AA9DE61D558F83000DE0F8 /* NextVC.m */,
+				8952A1DA1D557A26005B3B17 /* Main.storyboard */,
+				8952A1DD1D557A26005B3B17 /* Assets.xcassets */,
+				8952A1DF1D557A26005B3B17 /* LaunchScreen.storyboard */,
+				8952A1E21D557A26005B3B17 /* Info.plist */,
+				8952A1D11D557A26005B3B17 /* Supporting Files */,
+			);
+			path = EaseWave;
+			sourceTree = "<group>";
+		};
+		8952A1D11D557A26005B3B17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8952A1D21D557A26005B3B17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8952A1CD1D557A26005B3B17 /* EaseWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8952A1E51D557A26005B3B17 /* Build configuration list for PBXNativeTarget "EaseWave" */;
+			buildPhases = (
+				8952A1CA1D557A26005B3B17 /* Sources */,
+				8952A1CB1D557A26005B3B17 /* Frameworks */,
+				8952A1CC1D557A26005B3B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseWave;
+			productName = EaseWave;
+			productReference = 8952A1CE1D557A26005B3B17 /* EaseWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8952A1C61D557A26005B3B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wjh;
+				TargetAttributes = {
+					8952A1CD1D557A26005B3B17 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8952A1C91D557A26005B3B17 /* Build configuration list for PBXProject "EaseWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8952A1C51D557A26005B3B17;
+			productRefGroup = 8952A1CF1D557A26005B3B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8952A1CD1D557A26005B3B17 /* EaseWave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8952A1CC1D557A26005B3B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AA9DE91D559518000DE0F8 /* waveGif.gif in Resources */,
+				8952A1E11D557A26005B3B17 /* LaunchScreen.storyboard in Resources */,
+				8952A1DE1D557A26005B3B17 /* Assets.xcassets in Resources */,
+				8952A1DC1D557A26005B3B17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8952A1CA1D557A26005B3B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8952A1D91D557A26005B3B17 /* ViewController.m in Sources */,
+				8952A1EA1D557A66005B3B17 /* EaseWaveView.m in Sources */,
+				8952A1D61D557A26005B3B17 /* AppDelegate.m in Sources */,
+				89AA9DE71D558F83000DE0F8 /* NextVC.m in Sources */,
+				8952A1D31D557A26005B3B17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8952A1DA1D557A26005B3B17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8952A1DB1D557A26005B3B17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8952A1DF1D557A26005B3B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8952A1E01D557A26005B3B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8952A1E31D557A26005B3B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8952A1E41D557A26005B3B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8952A1E61D557A26005B3B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EaseWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wujh.EaseWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8952A1E71D557A26005B3B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EaseWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wujh.EaseWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8952A1C91D557A26005B3B17 /* Build configuration list for PBXProject "EaseWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8952A1E31D557A26005B3B17 /* Debug */,
+				8952A1E41D557A26005B3B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8952A1E51D557A26005B3B17 /* Build configuration list for PBXNativeTarget "EaseWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8952A1E61D557A26005B3B17 /* Debug */,
+				8952A1E71D557A26005B3B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8952A1C61D557A26005B3B17 /* Project object */;
+}
